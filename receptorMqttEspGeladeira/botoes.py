@@ -14,7 +14,7 @@ class Botoes:
         self.ui.solicitar_dados.clicked.connect(self.solicitar_dados)
 
     def solicitar_dados(self):
-        on_public("josemarcio0araujo@gmail.com/solicitar", Comandos.SOLICITAR.value)
+        on_public("@gmail.com/solicitar", Comandos.SOLICITAR.value)
         self.atualizar_ui()
     def atualizar_ui(self):
         tmin = conexao_mqtt.get_temp_minima()
