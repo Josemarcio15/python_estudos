@@ -3,13 +3,13 @@ import paho.mqtt.client as mqtt
 broker = "maqiatto.com"
 porta = 1883
 
-topico_tempatual = "josemarcio0araujo@gmail.com/tempatual"
-compressor = "josemarcio0araujo@gmail.com/compressor"
-parliga = "josemarcio0araujo@gmail.com/parliga"
-pardesliga = "josemarcio0araujo@gmail.com/pardesliga"
+topico_tempatual = "@gmail.com/tempatual"
+compressor = "@gmail.com/compressor"
+parliga = "@gmail.com/parliga"
+pardesliga = "@gmail.com/pardesliga"
 
-usuario = "josemarcio0araujo@gmail.com"
-password = "Samuel12"
+usuario = "@gmail.com"
+password = ""
 
 client = mqtt.Client()
 
