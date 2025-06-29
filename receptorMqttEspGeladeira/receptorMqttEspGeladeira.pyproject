@@ -1,9 +1,0 @@
-{
-    "files": [
-        "widget.py",
-        "form.ui",
-        "conexao_mqtt.py",
-        "botoes.py",
-        "ui_form.py"
-    ]
-}
